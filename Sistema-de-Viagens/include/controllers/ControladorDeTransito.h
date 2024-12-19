@@ -5,7 +5,7 @@
 #include "models/Trajeto.h"
 #include "models/Transporte.h"
 #include "models/Passageiro.h"
-#include "models/Viagem.h"  // Adicionando a classe Viagem
+#include "models/Viagem.h" 
 #include <vector>
 #include <string>
 
@@ -16,7 +16,7 @@ private:
     std::vector<Trajeto *> trajetos;
     std::vector<Transporte *> transportes;
     std::vector<Passageiro *> passageiros;
-    std::vector<Viagem *> viagens;  // Adicionando o vetor para armazenar viagens
+    std::vector<Viagem *> viagens; 
 
 public:
     ~ControladorDeTransito();
